@@ -1175,11 +1175,14 @@ section {
 }
 .btncentrado{
   text-align: center;
+  max-width: 60%;
+  padding-left: 38%;
 }
 @media(max-width: 500px){
   .btncentrado{
-    margin-left: 20px;
-    margin-top: 20px;
+    max-width: 100%;
+    padding-left: 20%;
+    padding-top: 20px;
   }
 }
 
@@ -1193,6 +1196,41 @@ section {
     background: var(--verde1);
   }
 }
+.imgcentrada{
+  max-width: 35%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 992px){
+  .imgcentrada{
+    max-width: 65%;
+    margin-left: 10px;
+  }
+}
+.horizontal{
+  padding: 20px;
+padding-left: 20% !important;
+max-width: 50%;
+}
+@media (max-width: 992px){
+  .horizontal{
+    max-width: 65%;
+    margin-right: 55px;
+  }
+}
+.horizontal1{
+  padding: 20px;
+  padding-left: 200px;
+  max-width: 50%;
+}
+@media (max-width: 992px){
+  .horizontal1{
+    max-width: 65%;
+    padding-left: 20px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Doctors
@@ -1216,6 +1254,7 @@ section {
     height: 80% !important;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
   }
 }
 
